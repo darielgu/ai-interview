@@ -1,6 +1,6 @@
-import { createUser } from "../controllers/userController";
-import { getUserById } from "../controllers/userController";
-import { authenticateUser } from "../controllers/userController";
+import { createUser } from "../controllers/userController.js";
+import { getUserById } from "../controllers/userController.js";
+import { authenticateUser } from "../controllers/userController.js";
 import express from "express";
 
 const router = express.Router();

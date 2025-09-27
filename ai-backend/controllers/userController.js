@@ -1,7 +1,8 @@
 // Controller for all user-related operations
-import User from "../models/userModel.js";
-import prisma from "../prismaClient.js";
+import { PrismaClient } from "../generated/prisma/index.js";
 import bcrypt from "bcrypt";
+
+const prisma = new PrismaClient();
 
 const saltRounds = 10;
 
